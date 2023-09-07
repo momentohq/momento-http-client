@@ -66,6 +66,6 @@ export class HttpClient {
       );
     }
 
-    return resp.text();
+    return resp.status;
   }
 }
