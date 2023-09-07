@@ -8,14 +8,14 @@ Official JavaScript/TypeScript wrapper for Momento HTTP API
 2. To use the momento-http-client library in your Deno project, use:
 
 ```typescript
-import { HttpClient } from "https://deno.land/x/momento_http@v0.1.0/src/index.ts"
+import { HttpClient } from "https://deno.land/x/momento_http/src/index.ts"
 ```
 
 Or if you prefer to use a Deno import map, put this in your deno.json file:
 
 ```json
 "imports": {
-  "momento_http": "https://deno.land/x/momento_http@v0.1.0/src/index.ts"
+  "momento_http": "https://deno.land/x/momento_http/src/index.ts"
 }
 ```
 
